@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-screen text-4xl text-white bg-slate-700">
-        <h1>Resources</h1>
+        <h1>ResourceType</h1>
         <div className="w-full flex justify-around p-5">
           <button onClick={() => setResource('posts')} className="bg-slate-600 p-2 border">Posts</button>
           <button onClick={() => setResource('users')} className="bg-slate-600 p-2 border">Users</button>
